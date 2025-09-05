@@ -8,6 +8,7 @@ vim.cmd("set shiftwidth=2")
 vim.opt.number = true           -- show absolute line number
 vim.opt.relativenumber = true   -- show relative line numbers
 vim.opt.cursorline = true
+vim.opt.clipboard = "unnamedplus"
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
